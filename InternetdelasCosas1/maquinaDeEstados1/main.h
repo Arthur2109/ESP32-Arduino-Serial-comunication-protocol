@@ -3,23 +3,21 @@
 
 #include "include.h"
 #include "serial.h"
+#include "wifi.h"
 
-class FSM {
-    public:         //clase publica para FInite State Machine
-    void FSM_Principal(int estado_in);
-    enum state {inicio = 0, conf = 1, operacion = 2}; //state {0,1,2}
-    int get_state();
+class FSM
+{
 
-    private:
-    void Init();
-    int estado;     //por encapsulamiento
-    
+  public:
+  void FSM_Principal(int estado_1);
+  enum state {inicio = 0, conf = 1, opera = 2};
+  int get_state();
+
+  private:
+  void Init();
+  int estado;
+  
 };
-
-
-
-
-
 
 
 #endif
