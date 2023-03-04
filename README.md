@@ -1,2 +1,6 @@
 # IoT
-comunication protocols ESP-Arduino
+Comunication protocols ESP-Arduino
+
+Class Serial (in serial.h) : Serial comunication between Arduino and ESP.
+
+Class Wifi : Wireless connexion between ESP and any any wifi source - For the moment.
