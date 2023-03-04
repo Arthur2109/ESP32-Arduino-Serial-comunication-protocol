@@ -2,7 +2,18 @@
 #define _INCLUDE_H_
 
 #include <Arduino.h>
-#include "WiFi.h"
+#include <HardwareSerial.h>
+
+#include <WiFi.h>
+#define LR 16
+#define LV 17
+
+
+
+
+
+
+
 
 
 
