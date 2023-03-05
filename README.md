@@ -1,5 +1,5 @@
 # IoT
-Comunication protocols ESP-Arduino
+Comunication protocols ESP-Arduino. Not finalized yet.
 
 Class Serial (in serial.h) : Serial comunication between Arduino and ESP.
 
