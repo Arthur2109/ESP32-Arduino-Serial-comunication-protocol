@@ -10,12 +10,16 @@ Hardware:
 - 4 LEDS connected to pins 17,18,19,21 (check "include.h" in server folder for changes)
 
 Architecture of the server:
-- Backend server: index.js (the one to run in your terminal, then go to http://localhost:3000)
+- Backend server: index.js (the one to run in your terminal)
 - Frontend: script.js
 - html interaction page: index.html
 - request language used: Jquery
 
--To run the server: Install Node previously, run the server in the right folder with "node index" command and then go to http://localhost:3000
+Architecture of ESP32 program:
+- time sample of GET request execution: 500 ms
+
+
+-To run the server: Install Node previously, run the server in the right folder with "node index" command and then go to http://localhost:3000.
 
 -To run the ESP program: Install previously the ESP32 firmware in Arduino IDE and select "ESP dev module" board, and the right port the ESP32 is connected to, then just run it on the board.
 
